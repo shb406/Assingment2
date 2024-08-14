@@ -13,6 +13,8 @@
 }
 .white2{
     color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 0.9rem;
 }
 .bd{
     background-color: black;
@@ -22,6 +24,10 @@
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
 }
+/* .mid16{
+    font-weight: 500;
+    font-size: 1rem;
+} */
 /* header section */
 .header{
     background-color: rgba(17, 17, 17, 1);
@@ -230,6 +236,16 @@
 .bmi-title{
     font-weight: 900;
     font-size: 3rem;
+}
+.bmi-chart{
+    background-color: rgba(34, 34, 34, 1);
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid  rgba(255, 255, 255, 0.5);
+    padding: 15px 20px;
 }
 /* for medium divices */
 
