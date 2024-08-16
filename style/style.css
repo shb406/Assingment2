@@ -174,7 +174,7 @@
 .Habits{
     text-align: center;
     margin-top: 100px;
-    /* line-height: 1rem; */
+    
 }
 .Habit{
     font-size: 3rem;
@@ -202,12 +202,14 @@
     display: flex;
     justify-content: space-between;
     background-color: rgba(34, 34, 34, 1);
-    border-radius: 1.1rem;
-    padding-left: 54px;
+    border-radius: 18px;
     margin: 0 190px;
     align-items: center;
     padding: 30px 30px;
 }
+/* .run-p{
+    padding-left: 0%;
+} */
 .picture{
     height:312px;
     width: 366px; 
