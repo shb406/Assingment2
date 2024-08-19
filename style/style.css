@@ -27,10 +27,7 @@
 .value{
     background-color: rgba(255, 255, 255, 0.1);
 }
-/* .mid16{
-    font-weight: 500;
-    font-size: 1rem;
-} */
+
 /* header section */
 .header{
     background-color: rgba(17, 17, 17, 1);
@@ -210,9 +207,7 @@
     align-items: center;
     padding: 30px 30px;
 }
-/* .run-p{
-    padding-left: 0%;
-} */
+
 .picture{
     height:312px;
     width: 366px; 
@@ -278,6 +273,7 @@ input, select {
 .label1{
     display: flex;
     gap: 5px;
+    margin: -5px;
 }
 
 
@@ -297,7 +293,7 @@ input, select {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
-    background-color:rgba(34, 34, 34, 1); ;
+    background-color:rgba(34, 34, 34, 1); 
     border-radius: 18px;
     margin: 88px 190px;
 
@@ -310,6 +306,10 @@ input, select {
     height: 272px;
     text-align: center;
     position: relative;
+    margin: -15px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    /* margin-left: -5px; */
 
 }
 
@@ -328,17 +328,82 @@ input, select {
     bottom: 10px;
     padding-left: 10px;
 }
- 
-
+.line{
+    list-style: none;
+}
+.footer-container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin: 88px 190px;
+}
+.footer-section{
+    background-color:rgba(34, 34, 34, 1);
+}
+.footer-section ul li a{
+    text-decoration: none;
+    margin: -40px;
+}
+.footer-section ul li{
+    margin: 5px 0;
+}
+.footer2{
+    text-align: left;
+}
+.footer3{
+    margin: 5px 190px;
+}
+.footer-bottom{
+    text-align: center;
+    padding: 10px;
+}
 
 /* for medium divices */
 
 @media screen and (max-width: 576px) {
-    .head{
+    .head,
+    .navbar,
+    .changing-habits,
+    .img-movement,
+    .Habits,
+    .Run{
         flex-direction: column;
     }
     .navbar{
-        
+        margin: 10px 10px;
+        display: block;
     }
+    .fitness{
+        margin-left: 10px;
+    }
+    .headers{
+        margin: 10px 10px;
+    }
+    .image-section{
+        margin-right: 10px;
+    }
+    .badge1{
+        left: 50px;
+        bottom: 250px;
+    }
+    .badge2{
+        right: -55px;
+        top: 50px;
+    }
+    .changing-habits{
+        margin: 10px 10px;
+        gap: 10px;
+    }
+    .Run{
+        margin: 10px 10px;
+    }
+    .pic{
+        margin-left: 50px;
+    }
+    .picture{
+        margin-left: 15px;
+    }
+
+
     
 }
