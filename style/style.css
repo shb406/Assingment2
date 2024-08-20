@@ -470,6 +470,7 @@ input, select {
     }
     .trainer{
         align-items: center;
+        max-width: 100%;
     }
      .foot, .footer-container{
         display: block;
