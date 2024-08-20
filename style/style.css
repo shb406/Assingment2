@@ -309,7 +309,6 @@ input, select {
     margin: -15px;
     margin-top: -10px;
     margin-bottom: 5px;
-    /* margin-left: -5px; */
 
 }
 
@@ -328,18 +327,19 @@ input, select {
     bottom: 10px;
     padding-left: 10px;
 }
+
+/* some footer section  */
 .line{
     list-style: none;
 }
-.footer-container{
-    
+ .footer-section{
+    background-color: rgba(34, 34, 34, 1);
+ }
+.foot{
     display: flex;
     justify-content: space-evenly;
-    margin: 88px 190px;
-}
-.footer-section{
-    background-color:rgba(34, 34, 34, 1);
-}
+} 
+ 
 .footer-section ul li a{
     text-decoration: none;
     margin: -40px;
@@ -440,15 +440,19 @@ input, select {
     }
      .foot, .footer-container{
         display: block;
+        text-align: left;
+       
 
      }
     .footer-container{
         text-align: left;
+    
     }
      .footer-bottom,
      .fitness{
         text-align: left;
      }
+     
      
 
 
