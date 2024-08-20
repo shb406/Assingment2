@@ -198,7 +198,7 @@
     text-align: center;
 }
 /* some run section  */
-.Run{
+.run{
     display: flex;
     justify-content: space-between;
     background-color: rgba(34, 34, 34, 1);
@@ -366,17 +366,28 @@ input, select {
     .changing-habits,
     .img-movement,
     .Habits,
-    .Run{
+    .Run,
+    .BMI,
+    .jerome,
+    .footer-section{
         flex-direction: column;
     }
-    .navbar{
+    .navbar, .footer-section{
         margin: 10px 10px;
         display: block;
     }
     .fitness{
         margin-left: 10px;
     }
-    .headers{
+    .headers,
+    .BMI,
+    .bmi,
+    .jerome,
+    .footer-section,
+    .footer-container,
+    .footer2,
+    .footer3,
+    .fitness{
         margin: 10px 10px;
     }
     .image-section{
@@ -387,22 +398,58 @@ input, select {
         bottom: 250px;
     }
     .badge2{
-        right: -55px;
+        right: -5px;
         top: 50px;
     }
     .changing-habits{
         margin: 10px 10px;
         gap: 10px;
     }
-    .Run{
-        margin: 10px 10px;
+    .run{
+        margin: 20px -30px;
+        display: block;
+        gap: 10px;
+    }
+    .workout{
+      max-width: 100%;  
+    }
+    .run-sec{
+        margin-left: 30px;
     }
     .pic{
-        margin-left: 50px;
+        margin-left: 100px;
+        max-width: 100%;
     }
     .picture{
         margin-left: 15px;
+        margin-top: 10px;
     }
+    .claculator{
+    text-align: left;
+    }
+    .jerome{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 100px;
+    }
+    .jerome img, .join{
+        max-width: 100%;
+    }
+    .trainer{
+        align-items: center;
+    }
+     .foot, .footer-container{
+        display: block;
+
+     }
+    .footer-container{
+        text-align: left;
+    }
+     .footer-bottom,
+     .fitness{
+        text-align: left;
+     }
+     
 
 
     
