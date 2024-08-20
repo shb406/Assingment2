@@ -406,9 +406,13 @@ input, select {
         gap: 10px;
     }
     .run{
-        margin: 20px -30px;
+        margin: 10px 10px;
         display: block;
         gap: 10px;
+        text-align: center;
+    }
+    .join{
+        max-width: 100%;
     }
     .workout{
       max-width: 100%;  
@@ -417,7 +421,7 @@ input, select {
         margin-left: 30px;
     }
     .pic{
-        margin-left: 100px;
+        margin-left: 80px;
         max-width: 100%;
     }
     .picture{
@@ -431,6 +435,7 @@ input, select {
         display: flex;
         flex-wrap: wrap;
         margin: 100px;
+        margin: 10px 70px;
     }
     .jerome img, .join{
         max-width: 100%;
